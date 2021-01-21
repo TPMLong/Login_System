@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.leftcolumn {   
+    /* float: left; */
+    margin: 0 auto;
+    width: 75%;
+}
+
+.fakeimg {
+    width: 100%;
+    padding: 20px;
+    max-height: 300px;
+}
+
+.row {
+    padding: 5px;
+    margin: 0px;
+    overflow: auto;
+    width: 100%; 
+}
+
+.card {
+    overflow-wrap: break-word;
+    border: 1px solid black ;
+    background-color: honeydew;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(199, 218, 199) ;
+    background-color: white;
+}
+
+h5{
+    text-align: right;
+    margin-top: 20px;
+}
