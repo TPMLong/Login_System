@@ -27,7 +27,7 @@
                                     <h2>";echo $result['title'];echo "</h2>
                                     <h5>";echo $result['dateCreate'];echo "</h5>
                                     <p>";echo $result['postDescription'];echo "</p>
-                                </div>";
+                                    </div>";
                 }else{
                     $img = $result['postImage'];
                                 echo "<div class='card'>
@@ -36,11 +36,12 @@
                                         echo "<img class='fakeimg' src='post_img/$img'>";
                                     $des = $result['postDescription'];
                                     echo "<p>$des</p>
-                                </div>
-                            </div>
-                         </div>";
+                                    </div>";
                 }
-        }//else{
+                
+        }
+        echo "</div></div>";
+        //else{
             // header("Location: main.php");
             // exit();
        //}
